@@ -2,6 +2,6 @@
 def islower(c):
 	lowercase = ord(c)
 	if lowercase > 96 and lowercase < 123:
-		print True
+		return True
 	else:
-		print False
+		return False
